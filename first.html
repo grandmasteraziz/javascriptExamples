@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript Tutorial</title>
+
+<style>
+input[type="text"] {
+    width: 20px;
+    border-top: 5px;
+    border-radius: 3px;
+    display: inline-block;
+}
+</style>
+
+</head>
+
+<body>
+
+
+<div id='elements'>
+
+</div>
+
+
+
+<script language = "javascript" type = "text/javascript" >
+
+var firstVariable = "javascript";
+
+for(var i=0;i<firstVariable.length;i++){
+document.getElementById('elements').innerHTML=document.getElementById('elements').innerHTML+"<input type='text' maxlength='1' id='type"+i+" '>";
+}
+//id değerine göre kontrol ettir
+//bunu bir döngünün içine al
+// doğru girdiği her değer için sayacı bir arttır
+//sayaç kelime sayısına ulaştığında
+//ekrana yeşil bir yazıyla kelimeyi bildiniz yazdır
+
+
+
+
+
+</script>
+
+<noscript>
+    <h3> this site <b> requires </b> JavaScript </h3>
+</noscript>
+</body>
+
+</html>
